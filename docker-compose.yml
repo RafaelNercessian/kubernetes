@@ -1,7 +1,7 @@
 version: '2'
 services:
  php:
-   image: minha_imagem
+   image: rafanercessian/aplicacao
    ports:
      - "8080:80"
    links: 
